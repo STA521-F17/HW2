@@ -1,4 +1,5 @@
 # HW2
+# 
 HW2 : Linear Regression and Diagnostics
 
 Go to the [github course site](http://github.com/STA521-F17). You should have a repo called HW2-X where the X is your GitHub username after accepting the invitation from Github Classroom in the Assignment on Sakai.  Click on the repo's name and then Click on Clone or Download.  Copy the URL for the repo for the next step.
