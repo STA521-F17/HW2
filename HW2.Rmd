@@ -13,7 +13,7 @@ library(car)
 # add other libraries here
 ```
 
-This exercise involves the UN data set from ALR. Download the `alr4` library and load the data to answer the following questions adding your code in the code chunks.  Please add appropriate code to the chuncks to suppress messages and warnings as needed once you are sure the code is working properly and remove instructions if no longer needed.  Please switch the output to pdf for your final version to upload to Sakai.
+This exercise involves the UN data set from ALR. Download the `alr3` library and load the data to answer the following questions adding your code in the code chunks.  Please add appropriate code to the chuncks to suppress messages and warnings as needed once you are sure the code is working properly and remove instructions if no longer needed.  Please switch the output to pdf for your final version to upload to Sakai.
 
 ```{r data, echo=F}
 library(alr3)
@@ -108,4 +108,4 @@ where $h_{ii}$ is the $i$th diagonal element of $H = X(X^TX)^{-1}X^T$.
 12.  Use 11 to show that
 
 $$\hat{\beta}_{(i)} = \hat{\beta} -  \frac{(X^TX)^{-1}x_i e_i}{1 - h_{ii}}$$
-where $\hat{\beta}_{(i)} = ( X^T_{(i)}X_{(i)})^{-1} X_{(i)}^T Y_{(i)}$ and $e_i = y_i - x_i^T\hat{\beta}$.  _Hint write_  $X_{(i)}^T Y_{(i)} = X^TY - x_{(i)}y_{(i)}$.
+where $\hat{\beta}_{(i)} = ( X^T_{(i)}X_{(i)})^{-1} X_{(i)}^T Y_{(i)}$ and $e_i = y_i - x_i^T\hat{\beta}$.  _Hint write_  $X_{(i)}^T Y_{(i)} = X^TY - x_{i}y_{i}$.
